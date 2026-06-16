@@ -495,13 +495,16 @@ export default function App() {
             </div>
           </div>
 
-          <div className="mt-auto border-t border-slate-100 pt-4 text-center">
+          <div className="mt-auto border-t border-slate-100 pt-4 text-center space-y-2">
             <p className="text-[10px] text-slate-400 flex items-center justify-center gap-1.5 font-bold font-mono tracking-wider">
               SYSTEM STATUS:
               <span className="flex items-center gap-1 text-green-500">
                 <span className="w-2 h-2 bg-green-500 rounded-full inline-block"></span>
                 ONLINE
               </span>
+            </p>
+            <p className="text-[10px] text-slate-400 font-mono font-bold tracking-wider">
+              ENGINEERED BY: <span className="text-indigo-600 font-extrabold">STALLIONI</span>
             </p>
           </div>
         </aside>

@@ -321,6 +321,15 @@ export default function Sidebar({
           )}
         </div>
       )}
+
+      {/* Permanent Sidebar Footer */}
+      <div id="sidebar-stallioni-footer" className="p-3.5 border-t border-slate-200 bg-slate-50 text-center shrink-0 flex flex-col items-center justify-center gap-1 select-none">
+        <div className="flex items-center gap-1.5 text-[9px] font-mono font-bold text-slate-400 tracking-widest uppercase">
+          <span>POWERED BY</span>
+          <span className="text-indigo-600 font-extrabold tracking-wider">STALLIONI</span>
+        </div>
+        <p className="text-[9px] text-slate-450 font-semibold font-mono">INTEGRAL PLATFORM © 2026</p>
+      </div>
     </aside>
   );
 }

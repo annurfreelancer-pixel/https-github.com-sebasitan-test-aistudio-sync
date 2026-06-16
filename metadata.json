@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Chatbot",
+  "description": "A clean and highly polished web chatbot interface that streams answers to general questions in real-time utilizing Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
